@@ -19,3 +19,9 @@ if __name__ == "__main__":
     
 # Run the test cases to verify the correctness of the fibonacci function
 test_fibonacci()
+if __name__ == "_main_":
+    n = 10
+    print(f"First {n} Fibonacci numbers:")
+    for num in fibonacci(n):
+        print(num, end=' ')
+        print()
